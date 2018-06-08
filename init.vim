@@ -35,4 +35,10 @@ call plug#begin('~/.vim/vim-plug-plugins')
 " Dart syntax highlighting
 Plug 'https://github.com/dart-lang/dart-vim-plugin'
 
+" Javascript and React
+Plug 'pangloss/vim-javascript'
+Plug 'mxw/vim-jsx'
+
 call plug#end()
+
+" Remember to call :PlugUpdate for a new install
